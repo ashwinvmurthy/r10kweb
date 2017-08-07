@@ -1,3 +1,3 @@
-class role::webserver{
-	include profile::apache
+class role::webserver {
+    include profile::apache
 }

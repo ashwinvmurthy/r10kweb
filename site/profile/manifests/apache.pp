@@ -1,6 +1,5 @@
-cloass profile::apache{
-	class{ '::apache':
-		serveradmin => 'walterheck@olindata.com',
-	}
-
+class profile::apache{
+    class {'::apache':
+        serveradmin => 'root@localhost',
+    }
 }
